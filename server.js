@@ -15,18 +15,18 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Comment line 18 out when deploying to heroku
-// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/Excercise", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/Excercise", { useNewUrlParser: true });
 
 // Uncomment the below when deploying to the Heroku app
-mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/Excercise',
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false
-  }
-);
+// mongoose.connect(
+//   process.env.MONGODB_URI || 'mongodb://localhost/Excercise',
+//   {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true,
+//     useCreateIndex: true,
+//     useFindAndModify: false
+//   }
+// );
 
 
 
