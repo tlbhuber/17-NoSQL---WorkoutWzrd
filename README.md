@@ -30,7 +30,8 @@ This application is licensed under: None
 
 ## Usage Information
  Anyone can use this app.
- [WorkoutWzrd] (https://evening-inlet-31199.herokuapp.com/)
+
+[WorkoutWzrd] (https://evening-inlet-31199.herokuapp.com/)
 
 ## Contribution Guidelines
  No contributions are requested at this time.
